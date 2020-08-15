@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài liệu hướng dẫn học PHP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo">
+                <span>WEB CƠ BẢN</span>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="java.html">JAVASCRIPT</a></li>
+                <li><a href="jquery.html">JQUERY</a></li>
+                <li><a href="Sql.html">MYSQL</a></li>
+                <li><a href="#">PHP</a></li>
+            </ul>
+            <div id="myOverlay" class="overlay">
+                <div class="border-btn">
+                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">
+                        <img src="images/cancel.png" alt="close" width="35px" height="35px">
+                    </span>
+                    <div class="overlay-content">
+                    <form action=""> 
+                            <input type="text"  name="search">
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <button class="openBtn" onclick="openSearch()"><i class="fa fa-search" style="color: white;"></i></button>
+            </div>
+        </div>
+        <div class="h-buttom">
+            <div class="arrow">
+                <a href="index.html"><i class="fa fa-home"></i> Trang chủ</a>
+            </div>
+            <div id="arrow1">
+                <a href="">PHP</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="m-left">
+            <h1>TÀI LIỆU HƯỚNG DẪN HỌC PHP</h1>
+            <div class="s-content-tl"><span><i class="fa fa-book fa-lg"></i> Các hướng dẫn cơ bản</span></div>
+            <div class="s-content"><a href="#">Bài 01: Tổng quan về ngôn ngữ lập trình PHP</a></div>
+            <div class="s-content"><a href="#">Bài 02: Cài đặt máy chủ web trên máy tính (localhost) bằng XAMPP</a></div>
+            <div class="s-content"><a href="#">Bài 03: Cách tạo và chạy một tập tin PHP</a></div>
+            <div class="s-content"><a href="#">Bài 04: Quy tắc viết mã lệnh trong tập tin PHP</a></div>
+            <div class="s-content"><a href="#">Bài 05: Cách hiển thị nội dung lên màn hình trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 06: Cách khai báo và sử dụng biến trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 07: Cách sử dụng chuỗi (string) trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 08: Viết chú thích (ghi chú) trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 09: Lệnh điều kiện if ... else trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 10: Lệnh switch case trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 11: Vòng lặp for & foreach trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 12: Vòng lặp while & do while trong PHP</a></div>
+            <div class="s-content"><a href="#">Bài 13: Cách khai báo và sử dụng hàm (function) trong PHP</a></div>
+            <div class="s-content-tl"><span><i class="fa fa-book fa-lg"></i> Tham khảo chuyên sâu</span></div>
+            <div class="s-content"><a href="#">PHP String (các hàm dùng để xử lý chuỗi)</a></div>
+            <div class="s-content"><a href="#">PHP Array (các hàm dùng để xử lý mảng)</a></div>
+            <div class="s-content"><a href="#">PHP Date (các hàm dùng để xử lý ngày tháng & thời gian)</a></div>
+            <div class="s-content"><a href="#">PHP File (các hàm dùng để làm việc với tập tin)</a></div>
+            <div class="s-content"><a href="#">PHP Directory (các hàm dùng để quản lý thư mục)</a></div>
+            <div class="s-content"><a href="#">PHP Math (các hàm toán học)</a></div>
+            <div class="s-content"><a href="#">PHP Timezones (các múi giờ được hỗ trợ trong PHP)</a></div>
+            <div class="s-content-b"></div>
+        </div>
+        <div class="main-right">
+            <div>
+                <a href="https://www.youtube.com/watch?v=l6UTmkWb9e8" target="_blank"><img src="images/series.jpg" alt="Video"></a>
+            </div>
+            <div class="img-fixed">
+                <img src="images/like.jpg" alt="Like" style="padding-top: 5px;">
+                <span>
+                    <a href="https://www.facebook.com/webcoban.vn" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: blue;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCDGVJ64_Uaqlqh2tA2JR-Gw?sub_confirmation=1" target="_blank"><i class="fab fa-youtube-square fa-2x" style="color: red;"></i></a>
+                </span>
+            </div>
+        </div>
+        <script src="js/popup.js"></script>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <i class="fa fa-graduation-cap fa-lg"></i> <u>WEB CƠ BẢN</u> là trang chia sẻ tài liệu học lập trình trực tuyến miễn phí.
+            </div>
+            <div>
+                <p>Chúng tôi chuyên cung cấp các bài viết thuộc lĩnh vực lập trình web, tài liệu hướng dẫn học HTML, CSS, Javascript, jQuery, MySQL, PHP,....</p><br>
+            </div>
+        </div>
+        <div class="footer-content1">
+            <div class="text">
+                <p>©2016 Bản quyền thuộc về <u>webcoban.vn</u></p>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="dmca-badge fa fa-rss-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài liệu hướng dẫn học jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo">
+                <span>WEB CƠ BẢN</span>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="java.html">JAVASCRIPT</a></li>
+                <li><a href="#">JQUERY</a></li>
+                <li><a href="Sql.html">MYSQL</a></li>
+                <li><a href="php.html">PHP</a></li>
+            </ul>
+            <div id="myOverlay" class="overlay">
+                <div class="border-btn">
+                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">
+                        <img src="images/cancel.png" alt="close" width="35px" height="35px">
+                    </span>
+                    <div class="overlay-content">
+                    <form action=""> 
+                            <input type="text"  name="search">
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <button class="openBtn" onclick="openSearch()"><i class="fa fa-search" style="color: white;"></i></button>
+            </div>
+        </div>
+        <div class="h-buttom">
+            <div class="arrow">
+                <a href="index.html"><i class="fa fa-home"></i> Trang chủ</a>
+            </div>
+            <div id="arrow1">
+                <a href="">jQuery</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="m-left">
+            <h1>TÀI LIỆU HƯỚNG DẪN HỌC JQUERY</h1>
+            <div class="s-content-tl"><span><i class="fa fa-book fa-lg"></i> Các hướng dẫn cơ bản</span></div>
+            <div class="s-content"><a href="#">Bài 01: Tìm hiểu tổng quan về jQuery</a></div>
+            <div class="s-content"><a href="#">Bài 02: jQuery Syntax</a></div>
+            <div class="s-content"><a href="#">Bài 03: jQuery Selectors</a></div>
+            <div class="s-content"><a href="#">Bài 04: Cách hiện và ẩn một phần tử</a></div>
+            <div class="s-content"><a href="#">Bài 05: Cách hiện và ẩn một phần tử (với hiệu ứng phai màu)</a></div>
+            <div class="s-content"><a href="#">Bài 06: jQuery Callback</a></div>
+            <div class="s-content"><a href="#">Bài 07: Cách hiện và ẩn một phần tử (với hiệu ứng trượt)</a></div>
+            <div class="s-content"><a href="#">Bài 08: jQuery Animate</a></div>
+            <div class="s-content"><a href="#">Bài 09: Phương thức Stop()</a></div>
+            <div class="s-content"><a href="#">Bài 10: jQuery Get</a></div>
+            <div class="s-content"><a href="#">Bài 11: jQuery Remove</a></div>
+            <div class="s-content"><a href="#">Bài 12: jQuery CSS Classes</a></div>
+            <div class="s-content"><a href="#">Bài 13: jQuery Ancestors</a></div>
+            <div class="s-content-tl"><span><i class="fa fa-book fa-lg"></i>  Tìm hiểu nâng cao</span></div>
+            <div class="s-content"><a href="#">jQuery Selectors (tất cả bộ chọn trong jQuery)</a></div>
+            <div class="s-content"><a href="#">jQuery Event (tất cả sự kiện trong jQuery)</a></div>
+            <div class="s-content"><a href="#">jQuery Methods (các phương thức cơ bản trong jQuery)</a></div>
+            <div class="s-content"><a href="#">jQuery HTML/CSS (các phương thức dùng để xử lý HTML/CSS trong jQuery)</a></div>
+            <div class="s-content-b"></div>
+        </div>
+        <div class="main-right">
+            <div>
+                <a href="https://www.youtube.com/watch?v=l6UTmkWb9e8" target="_blank"><img src="images/series.jpg" alt="Video"></a>
+            </div>
+            <div class="img-fixed">
+                <img src="images/like.jpg" alt="Like" style="padding-top: 5px;">
+                <span>
+                    <a href="https://www.facebook.com/webcoban.vn" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: blue;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCDGVJ64_Uaqlqh2tA2JR-Gw?sub_confirmation=1" target="_blank"><i class="fab fa-youtube-square fa-2x" style="color: red;"></i></a>
+                </span>
+            </div>
+        </div>
+        <script src="js/popup.js"></script>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <i class="fa fa-graduation-cap fa-lg"></i> <u>WEB CƠ BẢN</u> là trang chia sẻ tài liệu học lập trình trực tuyến miễn phí.
+            </div>
+            <div>
+                <p>Chúng tôi chuyên cung cấp các bài viết thuộc lĩnh vực lập trình web, tài liệu hướng dẫn học HTML, CSS, Javascript, jQuery, MySQL, PHP,....</p><br>
+            </div>
+        </div>
+        <div class="footer-content1">
+            <div class="text">
+                <p>©2016 Bản quyền thuộc về <u>webcoban.vn</u></p>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="dmca-badge fa fa-rss-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

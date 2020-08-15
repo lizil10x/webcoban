@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài liệu hướng dẫn học lập Trình Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo">
+                <span>WEB CƠ BẢN</span>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="java.html">JAVASCRIPT</a></li>
+                <li><a href="jquery.html">JQUERY</a></li>
+                <li><a href="Sql.html">MYSQL</a></li>
+                <li><a href="php.html">PHP</a></li>
+            </ul>
+            <div id="myOverlay" class="overlay">
+                <div class="border-btn">
+                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">
+                        <img id="move" src="images/cancel.png" alt="close" width="35px" height="35px">
+                    </span>
+                    <div class="overlay-content">
+                    <form action="google.com"> 
+                            <span><input type="text"  name="search"></span>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <button class="openBtn" onclick="openSearch()"><i class="fa fa-search" style="color: white;"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="main-left">
+            <div id="box">
+                <div id="box-box1">
+                    <h2>HỌC LÀM WEBSITE PHẢI BẮT ĐẦU TỪ ĐÂU !?</h2>
+                </div>
+                <div id="box-box2">
+                    <div>
+                        <img src="images/tai-lieu-huong-dan-hoc-lap-trinh-web.png" alt="laptrinhweb" width="285px" height="285px">
+                    </div>
+                    <div style="padding-left: 10px;">
+                        <p>- Có thể các bạn không phải là dân chuyên ngành Công nghệ thông tin, hoặc<br> chưa biết gì về <u>Lập trình web</u> nhưng lại rất muốn học để làm website, các<br> bạn tự đặt ra câu hỏi rằng <i>"liệu mình có thể học được hay không, phải bắt<br> đầu học từ đâu, học bao lâu thì mới làm được website !?"</i></p><br>
+                        <p>- Chúng tôi xin trả lời rằng:</p>
+                        <div id="box-box2-content">
+                            <p>
+                                <i>"Các bạn hoàn toàn có thể học và làm được website nếu mỗi ngày dành<br> ra một ít thời gian tìm hiểu về lập trình web, tùy thuộc vào mức độ chăm<br> chỉ, nhưng nếu trung bình mỗi ngày bỏ ra hai giờ thì không quá nửa năm,<br> các bạn sẽ có đủ kiến thức để bắt tay vào việc xây dựng một cái website"</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="box-box3">
+                    <p>- Hiện nay có rất nhiều loại ngôn ngữ lập trình được dùng trong việc xây dựng website. Tuy nhiên, các bạn chỉ cần tìm hiểu HTML, CSS, JavaScript, MySQL, PHP thì khả dĩ đã có đủ kiến thức nền tảng để xây dựng website.</p>
+                </div>
+                <div id="box-box4">
+                    <div>
+                        <img src="images/tai-lieu-huong-dan-hoc-html.png" alt="Tài liệu HTML" width="200px" height="200px">
+                    </div>
+                    <div>
+                        <p>- HTML là chữ viết tắt của cụm từ HyperText Markup Language, dịch sang tiếng Việt có nghĩa là ngôn ngữ đánh dấu siêu văn bản, nó được thiết kế ra để tạo nên các trang web với các mẫu thông tin được trình bày trên Word Wide Web.</p><br>
+                        <p>- HTML là một ngôn ngữ rất đơn giản và dễ học, đối với những bạn mới đặt chân trên con đường lập trình web (nói chung) hoặc thiết kế web (nói riêng) thì HTML chính là ngôn ngữ đầu tiên mà các bạn cần phải học.</p>
+                    </div>
+                </div>
+                <div id="box-box5">
+                    <div>
+                        <p>- CSS là chữ viết tắt của cụm từ Cascading Style Sheets, dịch sang tiếng Việt có<br> nghĩa là các tập tin định kiểu theo tầng, nó được dùng để mô tả cách trình bày của<br> các nội dung hiển thị trên web viết bằng ngôn ngữ HTML & XHML.</p><br>
+                        <p>- Với CSS thì chúng ta sẽ hạn chế được tối đa việc làm rối mã HTML bởi các thẻ định dạng kiểu dáng (chữ đậm, in nghiêng, gạch chân, màu chữ, . . . .), khiến mã nguồn<br> của trang Web được gọn gàng hơn, tách nội dung của trang Web và định dạng hiển<br> thị, từ đó dễ dàng cho việc cập nhật nội dung.</p>
+                    </div>
+                    <div>
+                        <img src="images/tai-lieu-huong-dan-hoc-css.png" alt="Tài liệu css" style="padding-top: 10px;">
+                    </div>
+                </div>
+                <div id="box-box6">
+                    <div>
+                        <img src="images/tai-lieu-huong-dan-hoc-javascript.png" alt="Tài liệu JavaScript">
+                    </div>
+                    <div>
+                        <p>- JavaScript là một ngôn ngữ lập trình kịch bản, nó được sử dụng rộng rãi trong các trang web hoặc phía máy chủ (đối với Nodejs)</p><br>
+                        <p>- JavaScript kết hợp với HTML & CSS xây dựng nên một bộ ba tiêu chuẩn của các công nghệ web, bằng việc sử dụng JavaScript thì chúng ta có thể triển khai được những chức năng phức tạp trên trang web, điển hình như cập nhật các nội dung hiển thị kịp thời, tương tác với bản đồ, hoạt cảnh 2D/3D, . . . .</p>
+                    </div>
+                </div>
+                <div id="box-box7">
+                    <div>
+                        <p>- MySQL là hệ quản trị cơ sở dữ liệu phổ biến nhất thế giới, nó có những đặc điểm nổi bật như tốc độ cao, bảo mật, ổn định, dễ sử dụng.</p><br>
+                        <p>- Bởi vì tốc độ cao cùng tính bảo mật, cho nên MySQL có thể được xem là sự lựa chọn hàng đầu trong việc phát triển các ứng dụng có truy cập cơ sở dữ liệu trên Internet, nó đặc biệt phù hợp làm nơi lưu trữ dữ liệu cho các trang web được viết bằng ngôn ngữ PHP, Perl, NodeJS, . . . .</p>
+                    </div>
+                    <div>
+                        <img src="images/tai-lieu-huong-dan-hoc-mysql.png" alt="Tài liệu MySql">
+                    </div>
+                </div>
+                <div id="box-box8">
+                    <div>
+                        <img src="images/tai-lieu-huong-dan-hoc-php.png" alt="Tài liệu PHP">
+                    </div>
+                    <div>
+                        <p>- PHP là một loại ngôn ngữ lập trình kịch bản, chủ yếu được dùng để phát triển các ứng dụng cho máy chủ, mã nguồn mở. Nó rất thích hợp với web và dễ dàng nhúng vào trang HTML.</p><br>
+                        <p>- Do được tối ưu hóa cho các ứng dụng web, tốc độ nhanh, nhỏ gọn, dễ học và thời gian xây dựng sản phẩm tương đối ngắn so với các ngôn ngữ khác, cho nên PHP đã nhanh chóng trở thành một ngôn ngữ lập trình web phổ biến nhất thế giới.</p>
+                    </div>
+                </div>
+                <div id="box-box9">
+                    <p>- Sau khi học xong năm ngôn ngữ trên thì đồng nghĩa với việc bạn đã có thể bắt đầu làm được website.</p><br>
+                    <p>- Vậy bây giờ chỉ còn một vấn đề duy nhất:</p><br>
+                </div>
+                <div id="box-box10">
+                    <p><i>"phải tìm tài liệu học lập trình web ở đâu, hoặc đăng ký học ở trung tâm nào, học phí bao nhiêu !?"</i></p>
+                </div>
+                <div id="box-box11">
+                    <p style="padding-top: 20px;">- Hiện nay có rất nhiều website chia sẻ tài liệu học lập trình web miễn phí, cũng như các trung tâm đào tạo lập trình viên thu phí (tùy vào khóa học sẽ có giá từ vài trăm nghìn đến vài triệu đồng)</p><br>
+                    <p>- Mỗi hình thức học đều có ưu điểm và nhược điểm riêng, ví dụ:</p><br>
+                    <ul type="circle" style="padding-left: 25px;">
+                        <li>Học bằng tài liệu miễn phí thì bạn sẽ làm chủ được thời gian và tiết kiệm chi phí, nhưng nếu gặp phải những bài viết không thể tự hiểu nổi thì chẳng có ai giải thích cho bạn.</li>
+                        <li>Còn học ở trung tâm thì bạn sẽ được các giảng viên hướng dẫn tận tình, nhưng thời gian học và học phí luôn là một vấn đề lớn.</li>
+                    </ul>
+                    <br>
+                    <p>- Nói chung, tùy vào năng lực và điều kiện mà bạn hãy tự lựa chọn hình thức học phù hợp với mình.</p><br>
+                    <p>- Tuy nhiên, nếu thuộc tuýp người thích tự tìm tòi học hỏi thì <span>webcoban.vn</span> rất hân hạnh giới thiệu đến bạn loạt tài liệu hướng dẫn học lập trình web với đầy đủ các ngôn ngữ lập trình cùng hàng trăm bài viết được biên soạn kỹ lưỡng theo mức độ từ cơ bản đến nâng cao, bài học trước củng cố kiến thức cho bài học sau, mỗi bài học đều hết sức mạch lạc, rõ ràng, dễ hiểu, hứa hẹn sẽ là bộ tài liệu thích hợp nhất dành cho những người mới bước chân vào con đường lập trình web.</p><br>
+                    <p>- Hy vọng bài viết này sẽ giải đáp được thắc mắc học làm website phải bắt đầu từ đâu của bạn.</p><br>
+                </div>
+                <div id="box-box12">
+                    <div>
+                        <p>- Chúc bạn có một khởi đầu tốt.</p>
+                    </div>
+                    <div id="btn-box12">
+                        <a href="bai1.html">BẮT ĐẦU HỌC TẠI ĐÂY</a>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        <div class="main-right">
+            <div>
+                <a href="https://www.youtube.com/watch?v=l6UTmkWb9e8" target="_blank"><img src="images/series.jpg" alt="Video"></a>
+            </div>
+            <div class="img-fixed">
+                <img src="images/like.jpg" alt="Like" style="padding-top: 5px;">
+                <span>
+                    <a href="https://www.facebook.com/webcoban.vn" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: blue;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCDGVJ64_Uaqlqh2tA2JR-Gw?sub_confirmation=1" target="_blank"><i class="fab fa-youtube-square fa-2x" style="color: red;"></i></a>
+                </span>
+            </div>
+        </div>
+        <script src="js/popup.js"></script>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <i class="fa fa-graduation-cap fa-lg"></i> <u>WEB CƠ BẢN</u> là trang chia sẻ tài liệu học lập trình trực tuyến miễn phí.
+            </div>
+            <div>
+                <p>Chúng tôi chuyên cung cấp các bài viết thuộc lĩnh vực lập trình web, tài liệu hướng dẫn học HTML, CSS, Javascript, jQuery, MySQL, PHP,....</p><br>
+            </div>
+        </div>
+        <div class="footer-content1">
+            <div class="text">
+                <p>©2016 Bản quyền thuộc về <u>webcoban.vn</u></p>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="dmca-badge fa fa-rss-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
